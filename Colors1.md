@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    //Создаем массив из 5 строк
-    char colors[5][10] = {"green", "blue", "pink", "black", "gray"};
+    //Создаем массив из 3 строк
+    char colors[3][10] = {"red", "blue", "green"};
 
     //Выводим массив на экран
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 3; i++) {
         printf("%s\n", colors[i]);
     }
 
